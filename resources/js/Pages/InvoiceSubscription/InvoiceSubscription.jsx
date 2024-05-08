@@ -1338,11 +1338,12 @@ export default function InvoiceSubscription({
                                 </span>
                                 <hr className="my-1" />
                                 <span>
-                                    <Link
-                                        href="/invoice_subscriptions/create"
-                                        className="bg-transparent hover:bg-slate-200 w-full text-slate-500 dark:hover:text-slate-900 dark:text-white border-b-2 border-slate-400"
-                                    >
-                                        Satuan
+                                    <Link href="/invoice_subscriptions/create">
+                                        <Button
+                                            className="bg-transparent hover:bg-slate-200 w-full text-slate-500 dark:hover:text-slate-900 dark:text-white border-b-2 border-slate-400"
+                                        >
+                                            Satuan
+                                        </Button>
                                     </Link>
                                 </span>
                             </div>
